@@ -17,7 +17,7 @@ namespace SistemaEstacionamento
             string opcao = string.Empty;
             bool exibirMenu = true;
 
-            // Realiza o loop do menu
+            
             while (exibirMenu)
             {
                 Console.Clear();
@@ -56,7 +56,7 @@ namespace SistemaEstacionamento
                         break;
                 }
 
-                // Aguarde o usuário pressionar uma tecla para continuar
+                
                 Console.WriteLine("Pressione qualquer tecla para continuar...");
                 Console.ReadKey();
             }
